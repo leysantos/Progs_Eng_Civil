@@ -148,7 +148,8 @@ disp("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 mprintf(" Desenvolvedor: Francirley Santos \n " + ...
        "Cursando: Engenharia Civil \n " + ...
        "Período: 8º, Noturno \n " + ...
-       "CENTRO UNIVERSITÁRIO LUTERANO DE MANAUS (CEULM)");
+       "CENTRO UNIVERSITÁRIO LUTERANO DE MANAUS (CEULM) \n\n " + ...
+       "Consultar a NBR 6122 e NBR 6118");
 disp(date());
 disp("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
@@ -540,6 +541,7 @@ if tipoFundacao == 1 then
         if ancoragem == 1 then
             strAncoragem = "Sem Gancho";
         else
+
             strAncoragem = "Com Gancho";
         end
         printf(" Dimensão da carga distribuída: %.1f cm x %.1f cm \n " + ...
